@@ -1,0 +1,37 @@
+{
+  "name": "saml-okta-auth",
+  "version": "1.0.0",
+  "description": "SAML Okta authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/habeebahmed/saml-auth.git"
+  },
+  "keywords": [
+    "SAML",
+    "Okta",
+    "SSO"
+  ],
+  "author": "Habeeb Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habeebahmed/saml-auth/issues"
+  },
+  "homepage": "https://github.com/habeebahmed/saml-auth#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.7"
+  }
+}
